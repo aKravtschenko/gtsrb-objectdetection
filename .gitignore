@@ -5,3 +5,9 @@ __pycache__/readTrafficSigns.cpython-39.pyc
 test.record
 train.record
 GTSRB/Readme-Images.txt
+
+/GTSRB/
+/models
+/testModules
+/faster_rcnn_resnet101_v1_640x640_coco17_tpu-8
+/GTSRB.zip
