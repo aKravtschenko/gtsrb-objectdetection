@@ -11,3 +11,7 @@ GTSRB/Readme-Images.txt
 /testModules
 /faster_rcnn_resnet101_v1_640x640_coco17_tpu-8
 /GTSRB.zip
+/training
+/longTraining
+/inference_graph
+/inference_graph_long
