@@ -15,3 +15,4 @@ GTSRB/Readme-Images.txt
 /longTraining
 /inference_graph
 /inference_graph_long
+/ssd_resnet101_v1_fpn_640x640_coco17_tpu-8
