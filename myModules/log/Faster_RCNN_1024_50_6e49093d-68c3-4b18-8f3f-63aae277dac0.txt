@@ -1,0 +1,32 @@
+ID: 6e49093d-68c3-4b18-8f3f-63aae277dac0
+Timestamp: 2024-07-14 18:20:52
+
+
+Trainingparameters:
+    BATCH_SIZE = 2 # Cannot be higher than 2-4 (lack of ressources)
+    NUM_CLASSES = 7 # Total number of classes to train is 43 - used for training are only 6-7
+    NUM_STEPS = 8000
+    NUM_EVAL_STEPS = 1000
+    MODEL_NAME = Faster_RCNN_1024_50
+    use_bfloat16 = False # Use bfloat16 = True for trainign with TPU
+    
+Locations: 
+    Path to Pipeline-Config = ./base_models/faster_rcnn/faster_rcnn_resnet50_v1_1024x1024_coco17_tpu-8/pipeline.config
+    Checkpoint from transfermodel  = ./base_models/faster_rcnn/faster_rcnn_resnet50_v1_1024x1024_coco17_tpu-8/checkpoint/ckpt-0
+
+    Path to the trainedmodel = D:\Desktop-Short\trained_models\faster_rcnn\Faster_RCNN_1024_50
+    Config of the trainedmodel = ./Faster_RCNN_1024_50_config.config
+    
+Used records: 
+    Used labelmap = ./myModules/label_map_short_unk.pbtxt
+    Used train_record = ./train_short_unknown_long.record
+    Used test_record = ./test_short_unknown_long.record
+
+Generell Information: 
+    Time needed for modeltraining = 8228.324670553207
+    Length of traindataset = 
+    Length of testdataset =  
+
+Notes: 
+
+==================================================

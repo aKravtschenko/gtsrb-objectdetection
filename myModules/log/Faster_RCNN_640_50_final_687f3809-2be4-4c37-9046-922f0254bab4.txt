@@ -1,0 +1,34 @@
+ID: 687f3809-2be4-4c37-9046-922f0254bab4
+Timestamp: 2024-07-15 13:14:30
+
+
+Trainingparameters:
+    BATCH_SIZE = 2 # Cannot be higher than 2-4 (lack of ressources)
+    NUM_CLASSES = 6 # Total number of classes to train is 43 - used for training are only 6-7
+    NUM_STEPS = 8000
+    NUM_EVAL_STEPS = 1000
+    MODEL_NAME = Faster_RCNN_640_50_final
+    use_bfloat16 = False # Use bfloat16 = True for trainign with TPU
+    
+Locations: 
+    Path to Pipeline-Config = ./base_models/faster_rcnn/faster_rcnn_resnet50_v1_640x640_coco17_tpu-8/pipeline.config
+    Checkpoint from transfermodel  = ./base_models/faster_rcnn/faster_rcnn_resnet50_v1_640x640_coco17_tpu-8/checkpoint/ckpt-0
+
+    Path to the trainedmodel = D:\Desktop-Short\trained_models\faster_rcnn\Faster_RCNN_640_50_final
+    Config of the trainedmodel = ./myModules/configs/Faster_RCNN_640_50_final_config.config
+    
+Used records: 
+    Used labelmap = ./myModules/label_map_short_unk.pbtxt
+    Used train_record = ./myModules/records/train.record
+    Used test_record = ./myModules/records/test.record
+
+Generell Information: 
+    Time needed for modeltraining = 2537.626962661743
+    Length of traindataset = 10360
+    Counted values for each Label form Traindataset = [2220, 2250, 2100, 780, 1110, 1900]
+    Length of testdataset = 3170
+    Counted values for each Label form Testdataset = [720, 750, 690, 270, 360, 380]
+
+Notes: final: stand for the final iteration of the train records.
+
+==================================================
