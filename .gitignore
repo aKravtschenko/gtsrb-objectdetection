@@ -20,3 +20,6 @@ GTSRB/Readme-Images.txt
 /base_models
 /inference
 /trained_models
+/yoloData
+yolov5/
+/__pycache__
