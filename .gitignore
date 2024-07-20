@@ -23,3 +23,8 @@ GTSRB/Readme-Images.txt
 /yoloData
 yolov5/
 /__pycache__
+/data
+/yoloTrain
+yolov5l.pt
+yolov5m.pt
+yolov5x.pt

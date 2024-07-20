@@ -7,7 +7,7 @@ def convert_box(size, box):
     return x * dw, y * dh, w * dw, h * dh
 
 
-def convert_voc_to_yolo(annotation_dir, image_dir, output_dir, class_names):
+def convert_voc_to_yolo(annotation_dir, output_dir, class_names):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     
