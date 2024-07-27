@@ -1,0 +1,34 @@
+ID: 88bac792-1025-4764-8575-ff51af1d9de8
+Timestamp: 2024-07-27 12:49:53
+
+
+Trainingparameters:
+    BATCH_SIZE = 12 # Cannot be higher than 2-4 (lack of ressources)
+    NUM_CLASSES = 5 # Total number of classes to train is 43 - used for training are only 6-7
+    NUM_STEPS = 8000
+    NUM_EVAL_STEPS = 1000
+    MODEL_NAME = Efficientdet_8000_640_d1
+    use_bfloat16 = False # Use bfloat16 = True for trainign with TPU
+    
+Locations: 
+    Path to Pipeline-Config = ./base_models/ssd/efficientdet_d1_coco17_tpu-32/pipeline.config
+    Checkpoint from transfermodel  = ./base_models/ssd/efficientdet_d1_coco17_tpu-32/checkpoint/ckpt-0
+
+    Path to the trainedmodel = D:\Desktop-Short\trained_models\ssd\Efficientdet_8000_640_d1
+    Config of the trainedmodel = ./myModules/configs/Efficientdet_8000_640_d1_config.config
+    
+Used records: 
+    Used labelmap = ./myModules/label_map_short_woUnk.pbtxt
+    Used train_record = ./myModules/records/trainWoUnknown.record
+    Used test_record = ./myModules/records/testWoUnknown.record
+
+Generell Information: 
+    Time needed for modeltraining = 152.9107563495636
+    Length of traindataset = 8460
+    Counted values for each Label form Traindataset = [2220, 2250, 2100, 780, 1110]
+    Length of testdataset = 2790
+    Counted values for each Label form Testdataset = [720, 750, 690, 270, 360]
+
+Notes: 
+
+==================================================

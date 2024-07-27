@@ -21,10 +21,14 @@ GTSRB/Readme-Images.txt
 /inference
 /trained_models
 /yoloData
+/yoloNoUnkData
 yolov5/
 /__pycache__
 /data
 /yoloTrain
+/yoloTrainNoUnk
 yolov5l.pt
 yolov5m.pt
 yolov5x.pt
+/videoInferenceData
+/JetsonPiModules/tf_lite
