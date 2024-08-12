@@ -1,0 +1,3 @@
+Model:SSD_8000_640_mobilenet_v2_fpnlite
+Processed 6464 frames in 410.58 seconds
+Average FPS: 15.74

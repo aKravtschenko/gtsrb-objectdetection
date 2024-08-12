@@ -1,0 +1,3 @@
+Model:SSD_640_101_fixed_withAugmentation_noUnknown2
+Processed 5266 frames in 654.94 seconds
+Average FPS: 8.04

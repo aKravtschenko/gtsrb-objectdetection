@@ -1,0 +1,3 @@
+Model:Faster_RCNN_640_50_fixed_distanz
+Processed 6464 frames in 774.62 seconds
+Average FPS: 8.34

@@ -1,0 +1,3 @@
+Model:Faster_RCNN_50_1024_Step_5
+Processed 6464 frames in 985.06 seconds
+Average FPS: 6.56

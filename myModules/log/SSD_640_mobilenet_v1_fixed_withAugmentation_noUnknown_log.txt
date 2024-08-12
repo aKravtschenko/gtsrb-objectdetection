@@ -1,0 +1,3 @@
+Model:SSD_640_mobilenet_v1_fixed_withAugmentation_noUnknown
+Processed 5266 frames in 352.09 seconds
+Average FPS: 14.96

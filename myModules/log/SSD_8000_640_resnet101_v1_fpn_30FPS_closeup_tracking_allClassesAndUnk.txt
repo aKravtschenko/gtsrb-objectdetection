@@ -1,0 +1,3 @@
+Model:SSD_8000_640_resnet101_v1_fpn
+Processed 6464 frames in 746.82 seconds
+Average FPS: 8.66

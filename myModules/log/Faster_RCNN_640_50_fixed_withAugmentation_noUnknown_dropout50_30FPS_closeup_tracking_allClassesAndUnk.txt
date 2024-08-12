@@ -1,0 +1,3 @@
+Model:Faster_RCNN_640_50_fixed_withAugmentation_noUnknown_dropout50
+Processed 6464 frames in 732.26 seconds
+Average FPS: 8.83

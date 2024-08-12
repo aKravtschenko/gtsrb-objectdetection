@@ -1,0 +1,3 @@
+Model:Faster_RCNN_short_640_101_unknown
+Processed 6464 frames in 886.81 seconds
+Average FPS: 7.29

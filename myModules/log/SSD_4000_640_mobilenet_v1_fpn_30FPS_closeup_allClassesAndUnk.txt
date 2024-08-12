@@ -1,0 +1,3 @@
+Model:SSD_4000_640_mobilenet_v1_fpn
+Processed 5266 frames in 427.33 seconds
+Average FPS: 12.32

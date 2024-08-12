@@ -1,0 +1,3 @@
+Model:Efficientdet_8000_640_d1
+Processed 5266 frames in 663.89 seconds
+Average FPS: 7.93

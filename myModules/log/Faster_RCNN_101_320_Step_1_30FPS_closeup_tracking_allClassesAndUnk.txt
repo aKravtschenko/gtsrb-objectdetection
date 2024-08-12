@@ -1,0 +1,3 @@
+Model:Faster_RCNN_101_320_Step_1
+Processed 6464 frames in 801.23 seconds
+Average FPS: 8.07
