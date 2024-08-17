@@ -1,0 +1,3 @@
+Model:SSD_1024_50_mutant
+Processed 6464 frames in 2612.58 seconds
+Average FPS: 2.47
