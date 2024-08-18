@@ -25,6 +25,7 @@ GTSRB/Readme-Images.txt
 yolov5/
 /__pycache__
 /data
+/GTSRB
 /yoloTrain
 /yoloTrainNoUnk
 yolov5l.pt
