@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>Images</folder>
+  <filename>00014_00003_00028.jpg</filename>
+  <size>
+    <width>159</width>
+    <height>153</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>4</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>14</xmin>
+      <ymin>14</ymin>
+      <xmax>145</xmax>
+      <ymax>140</ymax>
+    </bndbox>
+  </object>
+</annotation>
